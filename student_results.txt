@@ -1,0 +1,18 @@
+Student Name: 3
+Student's Scores: [98.0, 95.0]
+Student's Total Score: 193.0
+Average Grade: 96.50
+Grade Category: A
+------------------------------
+Student Name: Joy
+Student's Scores: [89.0, 87.0, 98.0]
+Student's Total Score: 274.0
+Average Grade: 91.33
+Grade Category: A
+------------------------------
+Student Name: Bimpe
+Student's Scores: [89.0, 90.0, 80.0, 95.0]
+Student's Total Score: 354.0
+Average Grade: 88.50
+Grade Category: A
+------------------------------
