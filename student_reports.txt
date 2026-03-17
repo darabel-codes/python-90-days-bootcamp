@@ -1,0 +1,2 @@
+Jeremiah Peters - Scores: [100, 80, 89], Total: 269, Average: 89.67, Highest: 100, Lowest: 80
+Peter John - Scores: [78, 98], Total: 176, Average: 88.0, Highest: 98, Lowest: 78
