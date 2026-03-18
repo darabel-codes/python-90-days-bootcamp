@@ -5,7 +5,7 @@ while True:
     
     try:
         number = float(user_input)
-        if number < 0:
+        if number <= 0:
             print("Please enter a positive number.")
             continue
         elif number >= 0:
