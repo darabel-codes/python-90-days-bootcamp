@@ -1,0 +1,2 @@
+Code Debuging|True
+Trying to resolving my python code error|False
