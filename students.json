@@ -1,19 +1,14 @@
 [
     {
-        "name": "Jerome Oluwadamilola Baiyegunhi",
-        "age": "40",
-        "course": "Cybersecurity",
-        "score": "400"
+        "name": "ter",
+        "age": "23",
+        "course": "biz admin",
+        "score": "34"
     },
     {
         "name": "Jerome",
-        "age": "56",
-        "course": "Geology",
-        "score": "400"
-    },
-    {
-        "name": "Jerome",
-        "age": "56",
-        "course": "tyy"
+        "age": 45,
+        "course": "Cyber",
+        "score": 300
     }
 ]
