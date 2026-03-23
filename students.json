@@ -2,13 +2,16 @@
     {
         "name": "ter",
         "age": "23",
-        "course": "biz admin",
-        "score": "34"
+        "course": "biz admin"
     },
     {
         "name": "Jerome",
         "age": 45,
-        "course": "Cyber",
-        "score": 300
+        "course": "Cyber"
+    },
+    {
+        "name": "Adebimpe Taiwo Morenike",
+        "age": 26,
+        "course": "Medicine & Surgery"
     }
 ]
