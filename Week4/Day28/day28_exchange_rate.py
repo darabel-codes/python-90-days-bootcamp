@@ -19,7 +19,8 @@ try:
     
     if (base_currency and quote_currency) in exchange_rates:
         amount = float(input(f"Enter amount in {base_currency}: "))
-        converted = amount * exchange_rates[quote_currency]
+        usd_amount = amount / exchange_rates[base_currency]
+        converted = usd_amount * exchange_rates[quote_currency]
         print(f"\n{amount} {base_currency} = {converted:.2f} {quote_currency}.")
     else:
         print("Currency not found.")
