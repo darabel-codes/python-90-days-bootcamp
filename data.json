@@ -1,0 +1,10 @@
+{
+    "income": 670000.0,
+    "expenses": [
+        {
+            "amount": 450000.0,
+            "category": "Wedding Hall",
+            "note": "Payment for wedding hall"
+        }
+    ]
+}
