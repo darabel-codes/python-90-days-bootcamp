@@ -5,7 +5,7 @@ import time
 
 print("==== JOB SCRAPER ====")
 
-base_url = "https://realpython.github.io/fake-jobs/"  # replace later
+base_url = "https://realpython.github.io/fake-jobs/" # replace later
 
 jobs = []
 
@@ -18,21 +18,20 @@ try:
 
         soup = BeautifulSoup(response.text, "html.parser")
 
-        job_cards = soup.find_all("div", class_="job")  # adjust later
+        job_cards = soup.find_all("div", class_="card-content")  # adjust later
 
         for job in job_cards:
-            title_tag = job.find("h2")
-            company_tag = job.find("span", class_="company")
-            link_tag = job.find("a")
-
-            if title_tag and company_tag and link_tag:
-                job_data = {
-                    "title": title_tag.text.strip(),
-                    "company": company_tag.text.strip(),
-                    "link": link_tag.get("href")
+            title = job.find("h2").text.strip()
+            company_tag = job.find("h3").text.strip()
+            link_tag = job.find("a").text.strip()
+            
+            job_data = {
+                    "title": title,
+                    "company": company_tag,
+                    "link": link_tag
                 }
 
-                jobs.append(job_data)
+            jobs.append(job_data)
 
         time.sleep(2)
 
