@@ -60,19 +60,8 @@ try:
         
             with open("clean_jobs.json", "w", encoding="utf-8") as f:
                 json.dump(unique_jobs, f, indent=4)
-        # for job in jobs:
-        #     if job["id"] not in seen_jobs:
-        #         print("\n🚨 NEW JOB FOUND!")
-        #         print(f"Title: {job['title']}")
-        #         print(f"Company: {job['company']}")
-        #         print(f"Location: {job['location']}")
-        #         print(f"Time: {job['time']}")
-
-        #         seen_jobs.add(job["id"])
 
         time.sleep(10)
         
-        
-
 except KeyboardInterrupt:
     print("\nStopped by user.")
