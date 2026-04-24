@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 
+
 print("==== JOB TRACKER BOT ====")
 
 url = "https://realpython.github.io/fake-jobs/"
