@@ -1,0 +1,15 @@
+Total Jobs: 100
+
+Top Companies:
+Garcia Plc: 2
+Payne, Roberts And Davis: 1
+Vasquez-Davidson: 1
+Jackson, Chambers And Levy: 1
+Savage-Bradley: 1
+
+Top Locations:
+Stewartbury, Aa: 1
+Christopherville, Aa: 1
+Port Ericaburgh, Aa: 1
+East Seanview, Ap: 1
+North Jamieview, Ap: 1
