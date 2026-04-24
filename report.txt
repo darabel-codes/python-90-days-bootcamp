@@ -1,0 +1,28 @@
+Total jobs: 100
+
+Top Companies Hiring:
+garcia plc: 2
+payne, roberts and davis: 1
+vasquez-davidson: 1
+jackson, chambers and levy: 1
+savage-bradley: 1
+
+Top Locations:
+stewartbury, aa: 1
+christopherville, aa: 1
+port ericaburgh, aa: 1
+east seanview, ap: 1
+north jamieview, ap: 1
+
+Python-related jobs: 10
+
+Top Job Titles:
+python programmer (entry-level): 3
+legal executive: 2
+materials engineer: 2
+software developer (python): 2
+futures trader: 2
+
+Remote jobs: 0
+
+Percentage of Python-related jobs: 10.00%
