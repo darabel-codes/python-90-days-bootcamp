@@ -1,8 +1,3 @@
-import os
-print("Current working directory:", os.getcwd())
-
-
-
 import json
 import csv
 import os
