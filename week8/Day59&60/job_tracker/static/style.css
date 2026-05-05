@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 400px;
+    padding: 5px;
+    background-color: #333;
+    color: rgb(238, 230, 230);
+}
+
+.scrape_jobs {
+    background-color: #28a745;
+}
+.scrape_jobs:hover {
+    background-color: hsl(258, 89%, 21%);
+}
+
+.job-card {
+    background-color: rgb(141, 139, 146);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px auto;
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(246, 248, 248, 0.76);
+
+}
+
+.job-card {
+    background: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
