@@ -6,19 +6,11 @@
 </head>
 <body>
 
-<div class="container">
-    <h1>💼 Job Listings</h1>
+    <form method="GET" action="/jobs">
+    <input type="text" name="search" placeholder="Search jobs..." value="{{ keyword or '' }}">
+    <button type="submit">Search</button>
+</form>
 
-    {% for job in jobs %}
-        <div class="job-card">
-            <h3>{{ job.title }}</h3>
-            <p><strong>Company:</strong> {{ job.company }}</p>
-            <p><strong>Location:</strong> {{ job.location }}</p>
-        </div>
-    {% endfor %}
-
-    <a href="/"><button>Back</button></a>
-</div>
-
+<p>Showing {{ jobs|length }} result(s)</p>
 </body>
 </html>

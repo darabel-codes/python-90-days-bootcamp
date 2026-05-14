@@ -1,5 +1,4 @@
 from flask import Flask, render_template, redirect
-from flask import request
 import json
 import os
 from scraper import scrape_jobs
@@ -34,25 +33,6 @@ def scrape():
 
     return redirect("/")
 
-@app.route("/jobs")
-def view_jobs():
-    if not os.path.exists(json_path):
-        return "No jobs found. Please scrape first."
-
-    with open(json_path, "r", encoding="utf-8") as f:
-        jobs = json.load(f)
-
-    # Get search input
-    keyword = request.args.get("search")
-
-    if keyword:
-        jobs = [
-            job for job in jobs
-            if keyword.lower() in job["title"].lower()
-            or keyword.lower() in job["company"].lower()
-        ]
-
-    return render_template("jobs.html", jobs=jobs, keyword=keyword)
 
 @app.route("/report")
 def report():
