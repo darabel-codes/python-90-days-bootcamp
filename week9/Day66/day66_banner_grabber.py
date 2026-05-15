@@ -1,4 +1,6 @@
+from datetime import datetime
 import socket
+
 
 print("===== BANNER GRABBER =====")
 
@@ -19,6 +21,15 @@ try:
     
     scanner.close()
     
+    if not banner:
+        print("\n[-] No banner received. The service may not provide a banner or the port may be closed.")
+    else:
+        with open("banner_notes.txt", "w") as file:
+            file.write(f"Target: {target}\nPort: {port}\nBanner: {banner.decode().strip()}\n")
+            print("\n[+] Banner information saved to banner_notes.txt")
+
+    
+
 except socket.timeout:
     print("\n[-] Connection timed out. No banner received.")
 
@@ -30,3 +41,6 @@ except socket.gaierror:
 
 except Exception as e:
     print(f"\n[-] An error occurred: {e}")
+
+time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+print(f"\nScan completed at {time}.")
